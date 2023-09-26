@@ -1,6 +1,8 @@
 let productHTML = '' ;
 
 product.forEach((product) =>  {
+  const priceInVND = (product.price * 1000).toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+
   productHTML += `
     <div class="pro">
       <img src="img/shoes/${product.img}" alt="">
@@ -14,7 +16,7 @@ product.forEach((product) =>  {
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
         </div>
-        <h4>${product.price}.000₫</h4>
+        <h4>${priceInVND}</h4>
       </div>
       <a href="#"><img class="cart" src="cart_icon.png" alt=""></a>
     </div>
