@@ -206,7 +206,7 @@ body {
 }
 
 #hero p {
-  margin-bottom: 250px;
+  margin-bottom: 50px;
 }
 
 #hero span {
@@ -789,7 +789,7 @@ footer .copyright {
 
 /*  Start Media Query Ipad */
 
-@media (max-width: 799px) {
+@media (max-width: 800px) {
   .section-p1 {
     padding: 40px 40px;
   }
@@ -908,9 +908,16 @@ footer .copyright {
   }
 }
 
+
+
+@media (max-width: 768px) {
+
+}
+
+
 /*  Start Media Query Iphone */
 
-@media (max-width: 477px) {
+@media (max-width: 600px) {
   .section-p1 {
     padding: 20px 20px;
   }
@@ -937,7 +944,7 @@ footer .copyright {
 
   #hero {
     padding: 0 20px;
-    background-position: 420px;
+    background-position: 600px;
   }
   
   #hero h1 {
@@ -952,19 +959,17 @@ footer .copyright {
   }
 
   #hero p {
+    margin-top: 50px;
+    margin-bottom: 15px;
     font-size: 12px;
   }
 
   #hero .address {
-    margin-top: -200px;
+    margin-top: 0px;
   }
 
   #hero h4 {
     font-size: 7px;
-  }
-
-  #sm-banner {
-    margin-top: -200px;
   }
 
   #sm-banner .banner-box {
@@ -1011,7 +1016,7 @@ footer .copyright {
 
 /*  Start Media Query Iphone */
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .section-p1 {
     padding: 20px 20px;
   }
@@ -1053,12 +1058,13 @@ footer .copyright {
   }
 
   #hero p {
-    margin-top: 40px;
+    margin-top: 90px;
     font-size: 10px;
+    margin-bottom: 15px;
   }
 
   #hero .address {
-    margin-top: -230px;
+    margin-top: 0px;
   }
 
   #hero h4 {
@@ -1097,8 +1103,67 @@ footer .copyright {
   }
 
   #banner h2{
-    margin-top: -15px;
+    margin-top: 0px;
     font-size: 12px;
   }
 }
 
+@media (max-width: 375px) {
+  #hero p {
+    margin-top: 50px;
+  }
+}
+
+
+
+/*  Start Media Query Iphone potstrait */
+
+@media (max-width: 320px) {
+  #top-nav p {
+    margin-top: 23px;
+    color: red;
+    font-size: 4.6px;
+    font-weight: bold;
+  }
+
+  #header{
+    height: 9vh;
+    padding: 10px 30px;
+  }
+
+  #hero {
+    padding: 0 20px;
+    background-position: 620px;
+  }
+
+  #hero h1 {
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-top: -25px;
+  }
+
+  #hero h2 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  #hero p {
+    margin-top: 40px;
+    font-size: 7px;
+    margin-bottom: 20px;
+  }
+
+  #hero .address {
+    margin-top: 0px;
+  }
+
+  #hero h4 {
+    font-size: 7px;
+  }
+
+  #sm-banner {
+    display: flex;
+    justify-content: center;
+
+  }
+}
