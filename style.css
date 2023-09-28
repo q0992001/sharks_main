@@ -223,7 +223,7 @@ body {
 }
 
 #hero button { 
-  background-image: url("/img/button.png"); 
+  background-image: url("/img/button.jpg"); 
   background-color: transparent; 
   color: aqua; 
   border: 0; 
@@ -897,6 +897,11 @@ footer .copyright {
     height: 20vh;
   }
 
+  #sm-banner {
+    display: flex;
+    justify-content: center;
+  }
+
   #sm-banner .banner-box {
     min-width: 100%;
     height: 20vh;
@@ -970,6 +975,11 @@ footer .copyright {
 
   #hero h4 {
     font-size: 7px;
+  }
+
+  #sm-banner {
+    display: flex;
+    justify-content: center;
   }
 
   #sm-banner .banner-box {
@@ -1072,6 +1082,8 @@ footer .copyright {
   }
 
   #sm-banner {
+    display: flex;
+    justify-content: center;
   }
 
   #sm-banner .banner-box h4{
