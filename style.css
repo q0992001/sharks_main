@@ -223,7 +223,7 @@ body {
 }
 
 #hero button { 
-  background-image: url("/img/button.jpg"); 
+  background-image: url("button.jpg"); 
   background-color: transparent; 
   color: aqua; 
   border: 0; 
@@ -784,6 +784,26 @@ footer .copyright {
 
 
 
+
+
+
+@media (max-width: 1080px) {
+  #hero h2 {
+    font-size: 70px;
+  }
+
+  #hero p {
+    margin-top: 200px;
+  }
+
+  #sm-banner .banner-box {
+    margin: 10px 10px;
+  }
+
+  #feature .fe-box {
+    margin: 10px 10px;
+  }
+}
 
 
 
