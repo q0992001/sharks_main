@@ -78,15 +78,15 @@
     <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
   </section>
 
-  <section id="newsletter" class="section-p1 section-m1"> 
+  <section id="newsletter" class="section-p1 section-m1">
     <div class="newstext">
       <h4>Đăng ký để nhận thêm thông tin</h4>
       <p>Đăng ký số điện thoại để nhận thông tin mới nhất về khóa học và <span>ưu đãi đặc biệt</span> giày bóng rổ.</p>
     </div>
-    <div class="form">
-      <input type="text" placeholder="Số điện thoại của bạn">
-      <button class="normal">Đăng ký</button>
-    </div>
+    <form action="" method="post" id="submit_form" class="form">
+      <input type="tel" name="phone" id="phoneNumber" placeholder="Số điện thoại của bạn">
+      <button class="normal" type="submit">Đăng ký</button>
+    </form>
   </section>
 
   <footer class="section-p1">
@@ -140,5 +140,6 @@
   <script src="data/data.js"></script>
   <script src="script/script.js"></script>
   <script src="script/build.js"></script>
+  <script src="script/submitform.js"></script>
 </body>
 </html>
