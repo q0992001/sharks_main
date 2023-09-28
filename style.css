@@ -1072,7 +1072,6 @@ footer .copyright {
   }
 
   #sm-banner {
-    margin-top: -100px;
   }
 
   #sm-banner .banner-box h4{
@@ -1080,7 +1079,6 @@ footer .copyright {
   }
 
   #sm-banner .banner-box h2{
-    margin-top: -5px;
     font-size: 18px;
   }
 
@@ -1108,7 +1106,7 @@ footer .copyright {
   }
 }
 
-@media (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
   #hero p {
     margin-top: 50px;
   }
