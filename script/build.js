@@ -30,6 +30,3 @@ product.forEach((product) =>  {
 
 document.querySelector('.js-pro-container').
 innerHTML = productHTML;
-
-document.querySelector('.js-hot-pro-container').
-innerHTML = productHTML;
