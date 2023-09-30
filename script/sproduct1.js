@@ -1,11 +1,14 @@
+//thay === số trùng với id của giày
+var productId = 1 ;
+
 var sizeSelect = document.getElementById("size-select");
 var productName = document.querySelector("#prodetails .sing-pro-details h4");
 var productPrice = document.querySelector("#prodetails .sing-pro-details h2");
 var productDes = document.querySelector("#prodetails .sing-pro-details span");
-
-
-//thay === số trùng với id của giày
-var productId = 1 ;
+var mainImg = document.getElementById("main-img");
+var smallImg1 = document.getElementById("small-img1");
+var smallImg2 = document.getElementById("small-img2");
+var smallImg3 = document.getElementById("small-img3");
 
 var productWithId = product.find(function(item) {
   return item.id === productId;
@@ -17,6 +20,10 @@ if (productWithId) {
   productName.textContent = productWithId.name; // Cập nhật tên sản phẩm
   productPrice.textContent = priceSpro; // Cập nhật giá sản phẩm
   productDes.textContent = productWithId.description; // Cập nhật mô tả
+  mainImg.src = `/img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm main
+  smallImg1.src = `/img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm small
+  smallImg2.src = `/img/shoes/${productWithId.id}_2.jpg`; // Cập nhật ảnh sản phẩm small
+  smallImg3.src = `/img/shoes/${productWithId.id}_3.jpg`; // Cập nhật ảnh sản phẩm small
 }
 
 sizeSelect.innerHTML = '';
