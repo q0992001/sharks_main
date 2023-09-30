@@ -62,27 +62,31 @@
         </div>
       </div>
     </div>
-  
-    <div class="sing-pro-details">
-      <h4>Sharks Kid 9</h4>
-      <h2>700.000₫</h2>
-      <div class="choice-container">
-        <!-- Thêm id cho phần select -->
-        <select id="size-select">
-          <!-- Các tùy chọn size sẽ được thêm bằng JavaScript -->
-          <option>Select Size</option>
-        </select>
-        <input type="number" value="1">
-        <button class="normal">Thanh Toán</button>
+
+    <form action="" method="post" id="submit-cart" class="submit-cart">
+      <div class="sing-pro-details">
+        <h4>Sharks Kid 9</h4>
+        <h2>700.000₫</h2>
+        <div class="choice-container">
+          <select id="size-select" name="size">
+            
+          </select>
+          <br>
+          <input type="number" id="quantity" name="quantity" value="1">
+          <br>
+          <input type="tel" name="phone" class="cart-phone-submit" id="phoneNumber" placeholder="Số điện thoại của bạn">
+          <br>
+          <button class="normal" type="submit">Thanh Toán</button>
+        </div>
+        <h4>Miêu tả sản phẩm</h4>
+        <span>Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+        </span>
       </div>
-      <h4>Miêu tả sản phẩm</h4>
-      <span>Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-      </span>
-    </div>
+    </form>
   </section>
 
   <section id="newsletter" class="section-p1 section-m1">
@@ -168,5 +172,6 @@
   <script src="script/script.js"></script>
   <script src="script/build.js"></script>
   <script src="script/submitform.js"></script>
+  <script src="script/submitcart.js"></script>
 </body>
 </html>

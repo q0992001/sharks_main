@@ -672,7 +672,9 @@ footer .copyright {
   cursor: pointer;
 }
 
-#prodetails .sing-pro-details {
+
+
+#prodetails .submit-cart{
   border: 1px solid #000;
   border-radius: 10px;
   width: 50%;
@@ -680,24 +682,24 @@ footer .copyright {
   padding: 30px;
 }
 
-#prodetails .sing-pro-details h4 {
+#prodetails .submit-cart .sing-pro-details h4 {
   display: flex;
   justify-content: center;
   padding: 40px 0 20px 0;
 }
 
-#prodetails .sing-pro-details h2 {
+#prodetails .submit-cart .sing-pro-details h2 {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-#prodetails .sing-pro-details .choice-container {
+#prodetails .submit-cart .sing-pro-details .choice-container {
   display: flex;
   justify-content: center;
 }
 
-#prodetails .sing-pro-details .choice-container select {
+#prodetails .submit-cart .sing-pro-details .choice-container select {
   display: block;
   padding: 5px 10px;
   margin-bottom: 10px;
@@ -705,26 +707,33 @@ footer .copyright {
   height: 47px;
 }
 
-#prodetails .sing-pro-details .choice-container input {
+#prodetails .submit-cart .sing-pro-details .choice-container input {
   width: 50px;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
-  margin-right: 10px;
   margin-left: 10px;
 }
 
-#prodetails .sing-pro-details .choice-container input:focus {
+#prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+  width: 200px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .submit-cart .sing-pro-details .choice-container input:focus {
   outline: none;
 }
 
-#prodetails .sing-pro-details .choice-container button {
+#prodetails .submit-cart .sing-pro-details .choice-container button {
   background: #088178;
   color: #fff;
   height: 47px;
 }
 
-#prodetails .sing-pro-details span {
+#prodetails .submit-cart .sing-pro-details span {
   line-height: 25px;
 }
 
