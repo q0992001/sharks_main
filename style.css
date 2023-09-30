@@ -862,7 +862,7 @@ footer .copyright {
 
 
 
-@media (max-width: 1080px) {
+@media (max-width: 1150px) {
   #hero h2 {
     font-size: 70px;
   }
@@ -877,6 +877,101 @@ footer .copyright {
 
   #feature .fe-box {
     margin: 10px 10px;
+  }
+
+  /* Single Product */
+  #prodetails {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  #prodetails .single-pro-image {
+    width: 30%;
+    margin-right: 50px;
+  }
+
+  #prodetails .single-pro-image img {
+    border-radius: 5px;
+  }
+
+  .small-img-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .small-img-col {
+    flex-basis: 32%;
+    cursor: pointer;
+  }
+
+
+
+  #prodetails .submit-cart{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    padding-top: 30px;
+    padding: 30px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    width: 60px;
+    height: 40px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    width: 150px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input:focus {
+    outline: none;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    text-align: center;
+    padding: 0px;
+    font-size: 10px;
+    width: 50px;
+    height: 40px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details span {
+    font-size: 15px;
+    line-height: 15px;
   }
 }
 
@@ -986,6 +1081,35 @@ footer .copyright {
 
   #product1 .pro {
     margin: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-bottom: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    width: 50%;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    width: 50%;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    width: 50%;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    padding: 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h2 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details span {
+    font-size: 13px;
   }
 
   #banner {
@@ -1198,6 +1322,46 @@ footer .copyright {
     font-size: 10px;
   }
 
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-top: -13px;
+    margin-bottom: 5px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    width: 30%;
+    height: 20px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    width: 30%;
+    height: 20px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    width: 30%;
+    height: 20px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    width: 30%;
+    height: 20px;
+    font-size: 5px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    font-size: 9px;
+    padding: 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h2 {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details span {
+    font-size: 7px;
+  }
+
   #banner {
     height: 30vh;
   }
@@ -1264,6 +1428,48 @@ footer .copyright {
 
   #hero h4 {
     font-size: 7px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-top: -13px;
+    margin-bottom: 23px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    width: 30%;
+    height: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    width: 30%;
+    height: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    width: 30%;
+    height: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    width: 30%;
+    height: 15px;
+    font-size: 4px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    font-size: 7px;
+    margin-top: -20px;
+    padding: 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h2 {
+    font-size: 6px;
+    margin-top: -15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details span {
+    font-size: 5px;
+    line-height: 5px;
   }
 
   #sm-banner {
