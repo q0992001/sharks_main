@@ -46,41 +46,43 @@
     </div>
   </section>
 
-  <section id="shoes-header">
-    <h2>#backtoshool deals</h2>
-    <p>chào mừng năm học mới <span>ưu đãi</span> lên đến <span>20%</span></p>
-  </section>
-
-  <!-- <section id="search">
-    <input type="text" name="search_name" id="search_shoes" placeholder="Search..">
-    <button class="normal" type="submit">Tìm</button>
-  </section> -->
-
-  <section id="product1" class="section-p1">
-    <div class="pro-container js-pro-container">
-      <div class="pro" onclick="window.location.href='sproduct.html'">
-        <img src="img/shoes/9_1.jpg" alt="">
-        <div class="des">
-          <span>Hanoi Sharks</span>
-          <h5>Sharks Kid 9</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>700.000₫</h4>
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+      <img src="/img/shoes/1_1.jpg" width="100%" id="main-img" alt="">
+  
+      <div class="small-img-group">
+        <div class="small-img-col">
+          <img src="img/shoes/1_1.jpg" width="100%" class="small-img" alt="">
         </div>
-        <a href="#" id="show-detail"><img class="cart" src="cart_icon.png" alt=""></a>
+        <div class="small-img-col">
+          <img src="img/shoes/1_2.jpg" width="100%" class="small-img" alt="">
+        </div>
+        <div class="small-img-col">
+          <img src="img/shoes/1_3.jpg" width="100%" class="small-img" alt="">
+        </div>
       </div>
     </div>
-  </section>
-
-  <section id="pagination" class="section-p1">
-    <a href="#">1</a>
-    <a href="#">2</a>
-    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+  
+    <div class="sing-pro-details">
+      <h4>Sharks Kid 9</h4>
+      <h2>700.000₫</h2>
+      <div class="choice-container">
+        <!-- Thêm id cho phần select -->
+        <select id="size-select">
+          <!-- Các tùy chọn size sẽ được thêm bằng JavaScript -->
+          <option>Select Size</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Thanh Toán</button>
+      </div>
+      <h4>Miêu tả sản phẩm</h4>
+      <span>Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+        Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
+      </span>
+    </div>
   </section>
 
   <section id="newsletter" class="section-p1 section-m1">
@@ -142,8 +144,27 @@
     </div>
   </footer>
 
+  <script>
+    var MainImg = document.getElementById("main-img");
+    var smallimg = document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+      MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+      MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+      MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+      MainImg.src = smallimg[3].src;
+    }
+    
+  </script>
 
   <script src="data/data.js"></script>
+  <script src="script/sproduct1.js"></script>
   <script src="script/script.js"></script>
   <script src="script/build.js"></script>
   <script src="script/submitform.js"></script>
